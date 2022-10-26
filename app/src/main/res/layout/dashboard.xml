@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Choose Your Domain"
+                android:textSize="25dp" />
+
+
+            <!--            Data Science-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:text="Data Science"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffffff"
+                android:src="@drawable/data_sci" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="In the given dataset, RD Spend, Administration Cost and Marketing Spend of 50 Companies
+are given along with the profit earned. The target is to prepare an ML model which can predict
+the profit value of a company if the value of....." />
+
+            <Button
+                android:id="@+id/data_sci_exp_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="explore" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/purple_700" />
+
+            </LinearLayout>
+
+            <!--            Full stack Development-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Full stack Development"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffffff"
+                android:src="@drawable/full_stack" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="“Design and Develop Website Mass-Mail Dispatcher”
+1. The system have been working with in this project is the web-based Mass-Mail
+Dispatcher.
+2. The application is designed to send mass mails to ......" />
+
+            <Button
+                android:id="@+id/full_stack_exp_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Explore" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/purple_700" />
+
+            </LinearLayout>
+
+            <!--Web Development-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Web Development"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffffff"
+                android:src="@drawable/web_dev" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="In the given dataset, RD Spend, Administration Cost and Marketing Spend of 50 Companies
+are given along with the profit earned. The target is to prepare an ML model which can predict
+the profit value of a company if the value of....." />
+
+            <Button
+                android:id="@+id/web_dev_exp_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="explore" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/purple_700" />
+
+            </LinearLayout>
+            <!--App Development-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="App Development"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#ffffffff"
+                android:src="@drawable/appdev" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="EXPOSYS VIRTUAL INTERNSHIP-EVI APP
+Let’s assume students want to apply Exposys Data Labs Virtual internship through mobile
+application.
+1. Create Mobile User Interface..." />
+
+            <Button
+                android:id="@+id/app_dev_exp_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="explore" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

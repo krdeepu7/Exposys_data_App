@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".data_sci_explore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data Science"
+                android:layout_gravity="center"
+                android:textSize="40dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/data_sci"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="PROJECT DESCRIPTION
+
+In the given dataset, RD Spend, Administration Cost and Marketing Spend of 50 Companies
+are given along with the profit earned. The target is to prepare an ML model which can predict
+the profit value of a company if the value of its RD Spend, Administration Cost and Marketing
+Spend are given.
+i) Construct Different Regression algorithms
+ii) Divide the data into train set and test set
+iii) Calculate different regression metrics
+iv) Choose the best model
+Language: Python or R"/>
+
+            <Button
+                android:onClick="apply_data_sci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

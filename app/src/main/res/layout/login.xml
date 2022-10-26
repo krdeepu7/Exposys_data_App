@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineSpotShadowColor="@color/background"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exposys data labs"
+        android:textColor="#FF5722"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login to Continue"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+<!--         Usename text field   -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_text_field_design"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:hint="username">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<!--    Password field-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password_input_field"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:hint="password">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Buttons-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#00000000"
+        android:text="Forget password"
+        />
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:text="LOGIN"
+        />
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#00000000"
+        android:text="SIGNUP"
+        />
+
+
+
+
+</LinearLayout>

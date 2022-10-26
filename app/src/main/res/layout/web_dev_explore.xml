@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".web_dev_explore">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Development"
+                android:layout_gravity="center"
+                android:textSize="40dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/web_dev"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="“Design and Develop Website Mass-Mail Dispatcher”
+1. The system have been working with in this project is the web-based Mass-Mail
+Dispatcher.
+2. The application is designed to send mass mails to all the recipients uploaded through a
+CSV file.
+3. The purpose of this is to provide a tool to control and send emails to a vast number of
+recipients.
+4. The application will list and sort out all the valid and invalid emails detected by the
+application allowing the users to more readily send emails as per user convenience.
+5. The end user should be able to upload CSV file.
+6. The application shall list the detected invalid emails found in the CSV File.
+7. The user should be given a structured list of the valid emails."/>
+
+            <Button
+                android:onClick="apply_web_dev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".full_stack_explore">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full Stack Development"
+                android:layout_gravity="center"
+                android:textSize="30dp"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/full_stack"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Students build a complete Full Stack web application. They will work on project selection,
+requirements gathering, project implementation and presentation.
+Glimpse of FrontEnd Lab/Project:
+Objective
+Brrrgrrr - A online website that sells burgers. It suggests users to not only customize their
+burgers by adding or removing ingredients but also create their own burger from the ingredients
+in stock.
+Mandatory things:
+1. Arrays
+2. DOM Manipulation
+3. ES6 compatible
+4. Higher Order Functions"/>
+
+            <Button
+                android:onClick="apply_full_stack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
