@@ -6,4 +6,4 @@ This includes
 2. It's integrated with firebase to Register user and verifies with the help of database
 3. Using Apply button you can reach to a redirected website from where you can apply for the internship.
 
-# You can directly download the apk file from apk folder 
+ You can directly download the apk file from apk file folder 
